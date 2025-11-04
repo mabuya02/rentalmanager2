@@ -5,59 +5,61 @@
 //  Created by Manasseh Mabuya Maina on 04/11/2025.
 //
 
-import SwiftUI
-import Combine
 import Foundation
+import Combine
 
 @MainActor
 final class DashboardViewModel: ObservableObject {
-    // MARK: - Published properties
-    @Published var totalUnpaidBills: String = "0.00"
-    @Published var totalPayments: String = "0.00"
-    @Published var activeMaintenanceCount: Int = 0
-    @Published var isLoading: Bool = false
+    @Published var totalUnpaidBills: String = "0"
+    @Published var totalPayments: String = "0"
+    @Published var activeMaintenanceCount: String = "0"
+    @Published var isLoading = false
 
     private let storage = LocalStorageService.shared
 
-    // MARK: - Load dashboard data
-    func loadData(for userEmail: String) {
-        guard !userEmail.isEmpty else {
-            print("⚠️ Dashboard load skipped: userEmail empty")
-            return
-        }
-
+    // ✅ Load using Firebase UID
+    func loadData(forUserId userId: String) {
         isLoading = true
-        Task {
-            defer { isLoading = false }
+        DispatchQueue.global(qos: .background).async {
+            let bills = self.storage.fetchBills(for: userId)
+            let payments = self.storage.fetchPayments(for: userId)
+            let maintenance = self.storage.fetchMaintenanceRequests(for: userId)
 
-            let users = storage.fetchAllUsers()
-            guard let user = users.first(where: { $0.email.lowercased() == userEmail.lowercased() }) else {
-                print("⚠️ No user found for email: \(userEmail)")
-                return
-            }
-
-            let bills = storage.fetchBills(for: user.id)
-            let payments = storage.fetchPayments(for: user.id)
-            let maintenance = storage.fetchMaintenanceRequests(for: user.id)
-
-            // Compute totals
             let unpaidTotal = bills
                 .filter { $0.status.lowercased() == "unpaid" }
                 .reduce(0.0) { $0 + $1.amount }
 
             let paidTotal = payments.reduce(0.0) { $0 + $1.amount }
 
-            // Format amounts nicely
-            let formatter = NumberFormatter()
-            formatter.numberStyle = .currency
-            formatter.currencyCode = "KES"
-            formatter.maximumFractionDigits = 2
+            let activeMaintenance = maintenance
+                .filter { $0.status.lowercased() != "resolved" }
+                .count
 
-            totalUnpaidBills = formatter.string(from: NSNumber(value: unpaidTotal)) ?? "KES 0.00"
-            totalPayments = formatter.string(from: NSNumber(value: paidTotal)) ?? "KES 0.00"
-            activeMaintenanceCount = maintenance.filter { $0.status.lowercased() != "resolved" }.count
+            Task { @MainActor in
+                self.totalUnpaidBills = String(format: "KES %.0f", unpaidTotal)
+                self.totalPayments = String(format: "KES %.0f", paidTotal)
+                self.activeMaintenanceCount = "\(activeMaintenance)"
+                self.isLoading = false
+            }
+        }
+    }
 
-            print("✅ Dashboard loaded for user: \(user.name)")
+    // ✅ Fallback – if only email is available
+    func loadData(forEmail email: String) {
+        isLoading = true
+        DispatchQueue.global(qos: .background).async {
+            let users = self.storage.fetchAllUsers()
+            guard let user = users.first(where: {
+                $0.email.lowercased() == email.lowercased()
+            }) else {
+                Task { @MainActor in self.isLoading = false }
+                return
+            }
+
+            // ✅ Call safely back on main actor
+            Task { @MainActor in
+                self.loadData(forUserId: user.id)
+            }
         }
     }
 }

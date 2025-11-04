@@ -21,19 +21,21 @@ final class AuthService {
             }
 
             guard let firebaseUser = result?.user else {
-                completion(.failure(NSError(domain: "AuthError", code: -1, userInfo: [NSLocalizedDescriptionKey: "No user data found."])))
+                completion(.failure(NSError(domain: "AuthError",
+                                            code: -1,
+                                            userInfo: [NSLocalizedDescriptionKey: "No user data found."])))
                 return
             }
 
-            // ✅ Map Firebase User -> Local User model
+            // ✅ Match latest User model
             let user = User(
                 id: firebaseUser.uid,
                 name: firebaseUser.displayName ?? "Tenant User",
-                email: firebaseUser.email ?? "",
+                email: firebaseUser.email ?? email,
                 phone: "",
-                apartmentNumber: "",
-                propertyName: "",
-                leaseStatus: "Active"
+                unitNumber: "Unit 1A",
+                profileImage: "",
+                createdAt: ISO8601DateFormatter().string(from: Date())
             )
 
             completion(.success(user))
@@ -49,19 +51,21 @@ final class AuthService {
             }
 
             guard let firebaseUser = result?.user else {
-                completion(.failure(NSError(domain: "AuthError", code: -1, userInfo: [NSLocalizedDescriptionKey: "User registration failed."])))
+                completion(.failure(NSError(domain: "AuthError",
+                                            code: -1,
+                                            userInfo: [NSLocalizedDescriptionKey: "User registration failed."])))
                 return
             }
 
-            // ✅ Map Firebase User -> Local User model
+            // ✅ Match latest User model
             let user = User(
                 id: firebaseUser.uid,
                 name: firebaseUser.displayName ?? "New Tenant",
-                email: firebaseUser.email ?? "",
+                email: firebaseUser.email ?? email,
                 phone: "",
-                apartmentNumber: "",
-                propertyName: "",
-                leaseStatus: "Active"
+                unitNumber: "Unit 1A",
+                profileImage: "",
+                createdAt: ISO8601DateFormatter().string(from: Date())
             )
 
             completion(.success(user))
@@ -83,6 +87,7 @@ final class AuthService {
     func logout() {
         do {
             try Auth.auth().signOut()
+            print("✅ Successfully logged out.")
         } catch {
             print("❌ Error signing out: \(error.localizedDescription)")
         }

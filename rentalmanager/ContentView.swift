@@ -17,15 +17,14 @@ struct ContentView: View {
                 SplashView(isActive: $showSplash)
             } else {
                 if viewModel.isAuthenticated {
-                    DashboardView(viewModel: viewModel)
+                    // ✅ Use the tab-based main navigation
+                    MainTabView(authVM: viewModel)
                 } else {
-                    LoginView()
+                    // ✅ Pass the viewModel to LoginView so it can update auth state
+                    LoginView(viewModel: viewModel)
                 }
             }
         }
     }
 }
-
-
-
 

@@ -9,12 +9,12 @@ import Foundation
 
 /// Represents a tenant user in the rental manager system.
 struct User: Codable, Identifiable {
-    var id: String
-    var name: String
-    var email: String
-    var phone: String
-    var apartmentNumber: String
-    var propertyName: String
-    var leaseStatus: String
+    let id: String
+    let name: String
+    let email: String
+    let phone: String
+    let unitNumber: String
+    let profileImage: String
+    let createdAt: String
 }
 

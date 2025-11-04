@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-    @StateObject private var viewModel = AuthViewModel()
+    @ObservedObject var viewModel: AuthViewModel   // ✅ Injected from ContentView
     @State private var step: LoginStep = .email
     @State private var showForgotPassword = false
     @FocusState private var focusedField: Field?
@@ -132,12 +132,16 @@ struct LoginView: View {
                     .ignoresSafeArea()
             )
             .onTapGesture { focusedField = nil }
+
+            // ✅ Updated: Navigate to MainTabView on success
             .fullScreenCover(isPresented: $viewModel.isAuthenticated) {
-                DashboardView(viewModel: viewModel)
+                MainTabView(authVM: viewModel)
             }
+
             .sheet(isPresented: $showForgotPassword) {
                 ForgotPasswordView(viewModel: viewModel)
             }
+
             .alert(item: $viewModel.alertMessage) { alert in
                 Alert(title: Text("Notice"),
                       message: Text(alert.message),

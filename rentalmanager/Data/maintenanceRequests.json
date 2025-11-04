@@ -30,6 +30,973 @@
     "description": "Lights not turning on in bedroom, possible wiring issue.",
     "status": "resolved",
     "createdAt": "2025-10-30T10:00:00Z"
+  },
+  {
+    "id": "REQ_005",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Broken Kitchen Tap",
+    "description": "Crack appearing on the bedroom wall.",
+    "status": "resolved",
+    "createdAt": "2026-01-02T00:00:00Z"
+  },
+  {
+    "id": "REQ_006",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Light Bulb Burnt Out",
+    "description": "Signs of pests in the kitchen area.",
+    "status": "pending",
+    "createdAt": "2025-11-09T00:00:00Z"
+  },
+  {
+    "id": "REQ_007",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Sink Clogged",
+    "description": "The lock is jammed and needs replacement.",
+    "status": "resolved",
+    "createdAt": "2025-12-13T00:00:00Z"
+  },
+  {
+    "id": "REQ_008",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Shower Head Leaking",
+    "description": "The item is leaking continuously.",
+    "status": "pending",
+    "createdAt": "2025-10-15T00:00:00Z"
+  },
+  {
+    "id": "REQ_009",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "No Electricity in Bedroom",
+    "description": "The item is leaking continuously.",
+    "status": "in-progress",
+    "createdAt": "2025-08-07T00:00:00Z"
+  },
+  {
+    "id": "REQ_010",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Wall Crack",
+    "description": "Oven temperature not consistent.",
+    "status": "resolved",
+    "createdAt": "2025-09-27T00:00:00Z"
+  },
+  {
+    "id": "REQ_011",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Sink Clogged",
+    "description": "Signs of pests in the kitchen area.",
+    "status": "in-progress",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "id": "REQ_012",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Door Lock Replacement",
+    "description": "Crack appearing on the bedroom wall.",
+    "status": "resolved",
+    "createdAt": "2025-09-04T00:00:00Z"
+  },
+  {
+    "id": "REQ_013",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Fridge Making Noise",
+    "description": "The item is leaking continuously.",
+    "status": "in-progress",
+    "createdAt": "2025-08-15T00:00:00Z"
+  },
+  {
+    "id": "REQ_014",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Oven Heating Unevenly",
+    "description": "Toilet flushing mechanism broken.",
+    "status": "in-progress",
+    "createdAt": "2025-12-22T00:00:00Z"
+  },
+  {
+    "id": "REQ_015",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Dishwasher Not Draining",
+    "description": "Bulb needs replacement in the living room.",
+    "status": "pending",
+    "createdAt": "2025-11-27T00:00:00Z"
+  },
+  {
+    "id": "REQ_016",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Pest Infestation",
+    "description": "Shower head spraying water unevenly.",
+    "status": "in-progress",
+    "createdAt": "2026-01-07T00:00:00Z"
+  },
+  {
+    "id": "REQ_017",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Washing Machine Leaking",
+    "description": "Loose tile in the bathroom floor.",
+    "status": "pending",
+    "createdAt": "2025-09-06T00:00:00Z"
+  },
+  {
+    "id": "REQ_018",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Fridge Making Noise",
+    "description": "Lights not turning on, possible wiring issue.",
+    "status": "in-progress",
+    "createdAt": "2025-12-18T00:00:00Z"
+  },
+  {
+    "id": "REQ_019",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Microwave Sparking",
+    "description": "Loose tile in the bathroom floor.",
+    "status": "pending",
+    "createdAt": "2025-12-10T00:00:00Z"
+  },
+  {
+    "id": "REQ_020",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "No Electricity in Bedroom",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "in-progress",
+    "createdAt": "2025-08-21T00:00:00Z"
+  },
+  {
+    "id": "REQ_021",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Microwave Sparking",
+    "description": "Washing machine leaking from bottom.",
+    "status": "resolved",
+    "createdAt": "2025-08-12T00:00:00Z"
+  },
+  {
+    "id": "REQ_022",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Blocked Bathroom Drain",
+    "description": "Cabinet door hinge broken.",
+    "status": "pending",
+    "createdAt": "2025-11-12T00:00:00Z"
+  },
+  {
+    "id": "REQ_023",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Pest Infestation",
+    "description": "Faucet dripping water constantly.",
+    "status": "in-progress",
+    "createdAt": "2025-09-14T00:00:00Z"
+  },
+  {
+    "id": "REQ_024",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "No Electricity in Bedroom",
+    "description": "Oven temperature not consistent.",
+    "status": "resolved",
+    "createdAt": "2025-08-14T00:00:00Z"
+  },
+  {
+    "id": "REQ_025",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Microwave Sparking",
+    "description": "Air conditioner not cooling the room.",
+    "status": "pending",
+    "createdAt": "2025-09-01T00:00:00Z"
+  },
+  {
+    "id": "REQ_026",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Window Won't Close",
+    "description": "Washing machine leaking from bottom.",
+    "status": "in-progress",
+    "createdAt": "2025-10-15T00:00:00Z"
+  },
+  {
+    "id": "REQ_027",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "No Electricity in Bedroom",
+    "description": "Shower head spraying water unevenly.",
+    "status": "in-progress",
+    "createdAt": "2026-02-02T00:00:00Z"
+  },
+  {
+    "id": "REQ_028",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Toilet Not Flushing",
+    "description": "Window stuck and won't close properly.",
+    "status": "pending",
+    "createdAt": "2026-01-26T00:00:00Z"
+  },
+  {
+    "id": "REQ_029",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "AC Not Working",
+    "description": "Kitchen sink drain blocked.",
+    "status": "pending",
+    "createdAt": "2025-08-29T00:00:00Z"
+  },
+  {
+    "id": "REQ_030",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Window Won't Close",
+    "description": "The drainage is clogged and overflowing.",
+    "status": "pending",
+    "createdAt": "2025-08-20T00:00:00Z"
+  },
+  {
+    "id": "REQ_031",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Door Lock Replacement",
+    "description": "Faucet dripping water constantly.",
+    "status": "resolved",
+    "createdAt": "2025-11-03T00:00:00Z"
+  },
+  {
+    "id": "REQ_032",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Shower Head Leaking",
+    "description": "Air conditioner not cooling the room.",
+    "status": "resolved",
+    "createdAt": "2026-01-19T00:00:00Z"
+  },
+  {
+    "id": "REQ_033",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Washing Machine Leaking",
+    "description": "Lights not turning on, possible wiring issue.",
+    "status": "resolved",
+    "createdAt": "2025-12-01T00:00:00Z"
+  },
+  {
+    "id": "REQ_034",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "AC Not Working",
+    "description": "Refrigerator producing unusual noises.",
+    "status": "resolved",
+    "createdAt": "2025-09-26T00:00:00Z"
+  },
+  {
+    "id": "REQ_035",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Sink Clogged",
+    "description": "Signs of pests in the kitchen area.",
+    "status": "pending",
+    "createdAt": "2025-09-25T00:00:00Z"
+  },
+  {
+    "id": "REQ_036",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Washing Machine Leaking",
+    "description": "Washing machine leaking from bottom.",
+    "status": "in-progress",
+    "createdAt": "2026-01-20T00:00:00Z"
+  },
+  {
+    "id": "REQ_037",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Blocked Bathroom Drain",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "resolved",
+    "createdAt": "2025-08-15T00:00:00Z"
+  },
+  {
+    "id": "REQ_038",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Leaky Faucet",
+    "description": "Loose tile in the bathroom floor.",
+    "status": "resolved",
+    "createdAt": "2025-10-29T00:00:00Z"
+  },
+  {
+    "id": "REQ_039",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Washing Machine Leaking",
+    "description": "Signs of pests in the kitchen area.",
+    "status": "in-progress",
+    "createdAt": "2025-10-28T00:00:00Z"
+  },
+  {
+    "id": "REQ_040",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Dishwasher Not Draining",
+    "description": "The item is leaking continuously.",
+    "status": "pending",
+    "createdAt": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "REQ_041",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "AC Not Working",
+    "description": "The item is leaking continuously.",
+    "status": "resolved",
+    "createdAt": "2025-12-10T00:00:00Z"
+  },
+  {
+    "id": "REQ_042",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Dishwasher Not Draining",
+    "description": "The item is leaking continuously.",
+    "status": "resolved",
+    "createdAt": "2025-08-19T00:00:00Z"
+  },
+  {
+    "id": "REQ_043",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Fridge Making Noise",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "pending",
+    "createdAt": "2025-08-07T00:00:00Z"
+  },
+  {
+    "id": "REQ_044",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Toilet Not Flushing",
+    "description": "Bulb needs replacement in the living room.",
+    "status": "resolved",
+    "createdAt": "2025-12-15T00:00:00Z"
+  },
+  {
+    "id": "REQ_045",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Broken Kitchen Tap",
+    "description": "Microwave interior sparking during use.",
+    "status": "resolved",
+    "createdAt": "2025-12-01T00:00:00Z"
+  },
+  {
+    "id": "REQ_046",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Fridge Making Noise",
+    "description": "Lights not turning on, possible wiring issue.",
+    "status": "in-progress",
+    "createdAt": "2025-11-02T00:00:00Z"
+  },
+  {
+    "id": "REQ_047",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Fridge Making Noise",
+    "description": "Cabinet door hinge broken.",
+    "status": "in-progress",
+    "createdAt": "2026-01-27T00:00:00Z"
+  },
+  {
+    "id": "REQ_048",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Toilet Not Flushing",
+    "description": "Refrigerator producing unusual noises.",
+    "status": "pending",
+    "createdAt": "2025-09-22T00:00:00Z"
+  },
+  {
+    "id": "REQ_049",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "AC Not Working",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "in-progress",
+    "createdAt": "2025-10-29T00:00:00Z"
+  },
+  {
+    "id": "REQ_050",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Door Lock Replacement",
+    "description": "The drainage is clogged and overflowing.",
+    "status": "pending",
+    "createdAt": "2025-09-09T00:00:00Z"
+  },
+  {
+    "id": "REQ_051",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Fridge Making Noise",
+    "description": "The lock is jammed and needs replacement.",
+    "status": "resolved",
+    "createdAt": "2025-08-31T00:00:00Z"
+  },
+  {
+    "id": "REQ_052",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Toilet Not Flushing",
+    "description": "Shower head spraying water unevenly.",
+    "status": "resolved",
+    "createdAt": "2025-08-23T00:00:00Z"
+  },
+  {
+    "id": "REQ_053",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Toilet Not Flushing",
+    "description": "Crack appearing on the bedroom wall.",
+    "status": "resolved",
+    "createdAt": "2025-09-16T00:00:00Z"
+  },
+  {
+    "id": "REQ_054",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Leaky Faucet",
+    "description": "Toilet flushing mechanism broken.",
+    "status": "pending",
+    "createdAt": "2025-10-22T00:00:00Z"
+  },
+  {
+    "id": "REQ_055",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Light Bulb Burnt Out",
+    "description": "Faucet dripping water constantly.",
+    "status": "resolved",
+    "createdAt": "2025-09-03T00:00:00Z"
+  },
+  {
+    "id": "REQ_056",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Washing Machine Leaking",
+    "description": "Crack appearing on the bedroom wall.",
+    "status": "resolved",
+    "createdAt": "2025-09-25T00:00:00Z"
+  },
+  {
+    "id": "REQ_057",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Washing Machine Leaking",
+    "description": "The drainage is clogged and overflowing.",
+    "status": "in-progress",
+    "createdAt": "2026-01-04T00:00:00Z"
+  },
+  {
+    "id": "REQ_058",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Dishwasher Not Draining",
+    "description": "Shower head spraying water unevenly.",
+    "status": "resolved",
+    "createdAt": "2025-12-18T00:00:00Z"
+  },
+  {
+    "id": "REQ_059",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Dishwasher Not Draining",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "resolved",
+    "createdAt": "2025-08-27T00:00:00Z"
+  },
+  {
+    "id": "REQ_060",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Oven Heating Unevenly",
+    "description": "Air conditioner not cooling the room.",
+    "status": "in-progress",
+    "createdAt": "2025-11-30T00:00:00Z"
+  },
+  {
+    "id": "REQ_061",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Floor Tile Loose",
+    "description": "Shower head spraying water unevenly.",
+    "status": "in-progress",
+    "createdAt": "2025-12-21T00:00:00Z"
+  },
+  {
+    "id": "REQ_062",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Sink Clogged",
+    "description": "Air conditioner not cooling the room.",
+    "status": "resolved",
+    "createdAt": "2025-12-03T00:00:00Z"
+  },
+  {
+    "id": "REQ_063",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Broken Kitchen Tap",
+    "description": "Kitchen sink drain blocked.",
+    "status": "pending",
+    "createdAt": "2025-10-23T00:00:00Z"
+  },
+  {
+    "id": "REQ_064",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Door Lock Replacement",
+    "description": "Crack appearing on the bedroom wall.",
+    "status": "resolved",
+    "createdAt": "2025-11-27T00:00:00Z"
+  },
+  {
+    "id": "REQ_065",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Oven Heating Unevenly",
+    "description": "Loose tile in the bathroom floor.",
+    "status": "pending",
+    "createdAt": "2025-10-09T00:00:00Z"
+  },
+  {
+    "id": "REQ_066",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "AC Not Working",
+    "description": "Cabinet door hinge broken.",
+    "status": "resolved",
+    "createdAt": "2026-01-10T00:00:00Z"
+  },
+  {
+    "id": "REQ_067",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Blocked Bathroom Drain",
+    "description": "Cabinet door hinge broken.",
+    "status": "resolved",
+    "createdAt": "2025-08-23T00:00:00Z"
+  },
+  {
+    "id": "REQ_068",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Pest Infestation",
+    "description": "Loose tile in the bathroom floor.",
+    "status": "in-progress",
+    "createdAt": "2026-01-03T00:00:00Z"
+  },
+  {
+    "id": "REQ_069",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Washing Machine Leaking",
+    "description": "Microwave interior sparking during use.",
+    "status": "resolved",
+    "createdAt": "2025-11-19T00:00:00Z"
+  },
+  {
+    "id": "REQ_070",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Broken Kitchen Tap",
+    "description": "Loose tile in the bathroom floor.",
+    "status": "in-progress",
+    "createdAt": "2025-08-07T00:00:00Z"
+  },
+  {
+    "id": "REQ_071",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Floor Tile Loose",
+    "description": "Faucet dripping water constantly.",
+    "status": "pending",
+    "createdAt": "2025-10-17T00:00:00Z"
+  },
+  {
+    "id": "REQ_072",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Broken Kitchen Tap",
+    "description": "Bulb needs replacement in the living room.",
+    "status": "resolved",
+    "createdAt": "2025-09-27T00:00:00Z"
+  },
+  {
+    "id": "REQ_073",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Washing Machine Leaking",
+    "description": "The item is leaking continuously.",
+    "status": "pending",
+    "createdAt": "2026-01-22T00:00:00Z"
+  },
+  {
+    "id": "REQ_074",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "AC Not Working",
+    "description": "Crack appearing on the bedroom wall.",
+    "status": "resolved",
+    "createdAt": "2025-11-20T00:00:00Z"
+  },
+  {
+    "id": "REQ_075",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Floor Tile Loose",
+    "description": "Refrigerator producing unusual noises.",
+    "status": "pending",
+    "createdAt": "2026-01-30T00:00:00Z"
+  },
+  {
+    "id": "REQ_076",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Toilet Not Flushing",
+    "description": "Shower head spraying water unevenly.",
+    "status": "pending",
+    "createdAt": "2026-01-18T00:00:00Z"
+  },
+  {
+    "id": "REQ_077",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Shower Head Leaking",
+    "description": "Oven temperature not consistent.",
+    "status": "in-progress",
+    "createdAt": "2025-12-25T00:00:00Z"
+  },
+  {
+    "id": "REQ_078",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Window Won't Close",
+    "description": "Washing machine leaking from bottom.",
+    "status": "pending",
+    "createdAt": "2025-08-11T00:00:00Z"
+  },
+  {
+    "id": "REQ_079",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Window Won't Close",
+    "description": "The item is leaking continuously.",
+    "status": "in-progress",
+    "createdAt": "2026-01-24T00:00:00Z"
+  },
+  {
+    "id": "REQ_080",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Wall Crack",
+    "description": "Crack appearing on the bedroom wall.",
+    "status": "in-progress",
+    "createdAt": "2026-01-11T00:00:00Z"
+  },
+  {
+    "id": "REQ_081",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Microwave Sparking",
+    "description": "Cabinet door hinge broken.",
+    "status": "in-progress",
+    "createdAt": "2025-12-04T00:00:00Z"
+  },
+  {
+    "id": "REQ_082",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Washing Machine Leaking",
+    "description": "Washing machine leaking from bottom.",
+    "status": "pending",
+    "createdAt": "2025-08-15T00:00:00Z"
+  },
+  {
+    "id": "REQ_083",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Pest Infestation",
+    "description": "Washing machine leaking from bottom.",
+    "status": "in-progress",
+    "createdAt": "2025-11-26T00:00:00Z"
+  },
+  {
+    "id": "REQ_084",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Oven Heating Unevenly",
+    "description": "Toilet flushing mechanism broken.",
+    "status": "in-progress",
+    "createdAt": "2025-08-20T00:00:00Z"
+  },
+  {
+    "id": "REQ_085",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Sink Clogged",
+    "description": "Lights not turning on, possible wiring issue.",
+    "status": "resolved",
+    "createdAt": "2025-12-15T00:00:00Z"
+  },
+  {
+    "id": "REQ_086",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Leaky Faucet",
+    "description": "The lock is jammed and needs replacement.",
+    "status": "resolved",
+    "createdAt": "2026-01-16T00:00:00Z"
+  },
+  {
+    "id": "REQ_087",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Broken Kitchen Tap",
+    "description": "Toilet flushing mechanism broken.",
+    "status": "in-progress",
+    "createdAt": "2025-12-08T00:00:00Z"
+  },
+  {
+    "id": "REQ_088",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Door Lock Replacement",
+    "description": "Air conditioner not cooling the room.",
+    "status": "in-progress",
+    "createdAt": "2025-11-10T00:00:00Z"
+  },
+  {
+    "id": "REQ_089",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Floor Tile Loose",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "pending",
+    "createdAt": "2025-12-17T00:00:00Z"
+  },
+  {
+    "id": "REQ_090",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "AC Not Working",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "in-progress",
+    "createdAt": "2025-11-04T00:00:00Z"
+  },
+  {
+    "id": "REQ_091",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Washing Machine Leaking",
+    "description": "Loose tile in the bathroom floor.",
+    "status": "resolved",
+    "createdAt": "2025-11-10T00:00:00Z"
+  },
+  {
+    "id": "REQ_092",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Washing Machine Leaking",
+    "description": "Cabinet door hinge broken.",
+    "status": "pending",
+    "createdAt": "2025-09-03T00:00:00Z"
+  },
+  {
+    "id": "REQ_093",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Broken Kitchen Tap",
+    "description": "The lock is jammed and needs replacement.",
+    "status": "resolved",
+    "createdAt": "2025-11-15T00:00:00Z"
+  },
+  {
+    "id": "REQ_094",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "No Electricity in Bedroom",
+    "description": "Signs of pests in the kitchen area.",
+    "status": "resolved",
+    "createdAt": "2025-11-09T00:00:00Z"
+  },
+  {
+    "id": "REQ_095",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Window Won't Close",
+    "description": "Signs of pests in the kitchen area.",
+    "status": "in-progress",
+    "createdAt": "2025-12-24T00:00:00Z"
+  },
+  {
+    "id": "REQ_096",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Microwave Sparking",
+    "description": "Air conditioner not cooling the room.",
+    "status": "in-progress",
+    "createdAt": "2025-09-01T00:00:00Z"
+  },
+  {
+    "id": "REQ_097",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Floor Tile Loose",
+    "description": "Lights not turning on, possible wiring issue.",
+    "status": "resolved",
+    "createdAt": "2026-01-11T00:00:00Z"
+  },
+  {
+    "id": "REQ_098",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Oven Heating Unevenly",
+    "description": "Washing machine leaking from bottom.",
+    "status": "resolved",
+    "createdAt": "2025-12-26T00:00:00Z"
+  },
+  {
+    "id": "REQ_099",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Broken Kitchen Tap",
+    "description": "Microwave interior sparking during use.",
+    "status": "resolved",
+    "createdAt": "2025-12-29T00:00:00Z"
+  },
+  {
+    "id": "REQ_100",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "Cabinet Door Broken",
+    "description": "Crack appearing on the bedroom wall.",
+    "status": "in-progress",
+    "createdAt": "2025-08-26T00:00:00Z"
+  },
+  {
+    "id": "REQ_101",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "No Electricity in Bedroom",
+    "description": "Signs of pests in the kitchen area.",
+    "status": "resolved",
+    "createdAt": "2026-01-28T00:00:00Z"
+  },
+  {
+    "id": "REQ_102",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Window Won't Close",
+    "description": "Refrigerator producing unusual noises.",
+    "status": "in-progress",
+    "createdAt": "2025-08-16T00:00:00Z"
+  },
+  {
+    "id": "REQ_103",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Oven Heating Unevenly",
+    "description": "Kitchen sink drain blocked.",
+    "status": "resolved",
+    "createdAt": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "REQ_104",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Oven Heating Unevenly",
+    "description": "Faucet dripping water constantly.",
+    "status": "resolved",
+    "createdAt": "2025-08-06T00:00:00Z"
+  },
+  {
+    "id": "REQ_105",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Dishwasher Not Draining",
+    "description": "Window stuck and won't close properly.",
+    "status": "in-progress",
+    "createdAt": "2025-08-29T00:00:00Z"
+  },
+  {
+    "id": "REQ_106",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Cabinet Door Broken",
+    "description": "The lock is jammed and needs replacement.",
+    "status": "pending",
+    "createdAt": "2025-09-09T00:00:00Z"
+  },
+  {
+    "id": "REQ_107",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "No Electricity in Bedroom",
+    "description": "Window stuck and won't close properly.",
+    "status": "resolved",
+    "createdAt": "2025-12-08T00:00:00Z"
+  },
+  {
+    "id": "REQ_108",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Fridge Making Noise",
+    "description": "The item is leaking continuously.",
+    "status": "in-progress",
+    "createdAt": "2025-09-07T00:00:00Z"
+  },
+  {
+    "id": "REQ_109",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Blocked Bathroom Drain",
+    "description": "The item is leaking continuously.",
+    "status": "resolved",
+    "createdAt": "2026-01-08T00:00:00Z"
+  },
+  {
+    "id": "REQ_110",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Sink Clogged",
+    "description": "Loose tile in the bathroom floor.",
+    "status": "resolved",
+    "createdAt": "2026-01-29T00:00:00Z"
+  },
+  {
+    "id": "REQ_111",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Pest Infestation",
+    "description": "Oven temperature not consistent.",
+    "status": "pending",
+    "createdAt": "2025-10-10T00:00:00Z"
+  },
+  {
+    "id": "REQ_112",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Door Lock Replacement",
+    "description": "The drainage is clogged and overflowing.",
+    "status": "in-progress",
+    "createdAt": "2025-11-09T00:00:00Z"
+  },
+  {
+    "id": "REQ_113",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Dishwasher Not Draining",
+    "description": "Lights not turning on, possible wiring issue.",
+    "status": "in-progress",
+    "createdAt": "2025-08-13T00:00:00Z"
+  },
+  {
+    "id": "REQ_114",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Washing Machine Leaking",
+    "description": "Kitchen sink drain blocked.",
+    "status": "resolved",
+    "createdAt": "2025-08-14T00:00:00Z"
+  },
+  {
+    "id": "REQ_115",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Cabinet Door Broken",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "pending",
+    "createdAt": "2025-12-18T00:00:00Z"
+  },
+  {
+    "id": "REQ_116",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Fridge Making Noise",
+    "description": "Crack appearing on the bedroom wall.",
+    "status": "in-progress",
+    "createdAt": "2025-09-17T00:00:00Z"
+  },
+  {
+    "id": "REQ_117",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Sink Clogged",
+    "description": "Lights not turning on, possible wiring issue.",
+    "status": "pending",
+    "createdAt": "2026-01-27T00:00:00Z"
+  },
+  {
+    "id": "REQ_118",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Dishwasher Not Draining",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "in-progress",
+    "createdAt": "2025-10-19T00:00:00Z"
+  },
+  {
+    "id": "REQ_119",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Window Won't Close",
+    "description": "Loose tile in the bathroom floor.",
+    "status": "resolved",
+    "createdAt": "2025-09-10T00:00:00Z"
+  },
+  {
+    "id": "REQ_120",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Washing Machine Leaking",
+    "description": "Window stuck and won't close properly.",
+    "status": "resolved",
+    "createdAt": "2025-08-16T00:00:00Z"
+  },
+  {
+    "id": "REQ_121",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Cabinet Door Broken",
+    "description": "Lights not turning on, possible wiring issue.",
+    "status": "pending",
+    "createdAt": "2025-11-02T00:00:00Z"
+  },
+  {
+    "id": "REQ_122",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Microwave Sparking",
+    "description": "Dishwasher not draining water after cycle.",
+    "status": "pending",
+    "createdAt": "2025-12-08T00:00:00Z"
+  },
+  {
+    "id": "REQ_123",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Sink Clogged",
+    "description": "Cabinet door hinge broken.",
+    "status": "in-progress",
+    "createdAt": "2025-09-10T00:00:00Z"
+  },
+  {
+    "id": "REQ_124",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Leaky Faucet",
+    "description": "Oven temperature not consistent.",
+    "status": "pending",
+    "createdAt": "2025-12-27T00:00:00Z"
+  },
+  {
+    "id": "REQ_125",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "Dishwasher Not Draining",
+    "description": "Bulb needs replacement in the living room.",
+    "status": "in-progress",
+    "createdAt": "2025-11-08T00:00:00Z"
   }
 ]
-
