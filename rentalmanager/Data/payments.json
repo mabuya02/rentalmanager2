@@ -1,0 +1,43 @@
+[
+  {
+    "id": "PAY_001",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "billId": "BILL_002",
+    "amount": 950,
+    "method": "M-Pesa",
+    "reference": "QW1234XZ",
+    "status": "successful",
+    "datePaid": "2025-10-31T11:10:00Z"
+  },
+  {
+    "id": "PAY_002",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "billId": "BILL_003",
+    "amount": 13000,
+    "method": "Card",
+    "reference": "TXN55832K",
+    "status": "pending",
+    "datePaid": "2025-11-03T09:30:00Z"
+  },
+  {
+    "id": "PAY_003",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "billId": "BILL_005",
+    "amount": 1200,
+    "method": "M-Pesa",
+    "reference": "MP83421ZX",
+    "status": "successful",
+    "datePaid": "2025-10-29T15:00:00Z"
+  },
+  {
+    "id": "PAY_004",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "billId": "BILL_006",
+    "amount": 11500,
+    "method": "Bank",
+    "reference": "BNK1983AF",
+    "status": "successful",
+    "datePaid": "2025-10-31T13:00:00Z"
+  }
+]
+

@@ -1,0 +1,48 @@
+
+[
+  {
+    "id": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "name": "Manasseh Mabuya",
+    "email": "Manassehmabuya@gmail.com",
+    "phone": "+254712345678",
+    "unitNumber": "A-101",
+    "profileImage": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "createdAt": "2025-11-04T14:00:00Z"
+  },
+  {
+    "id": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "name": "Manasseh Maina",
+    "email": "Manasseh.maina@strathmore.edu",
+    "phone": "+254700123456",
+    "unitNumber": "A-102",
+    "profileImage": "https://cdn-icons-png.flaticon.com/512/219/219969.png",
+    "createdAt": "2025-11-04T14:00:00Z"
+  },
+  {
+    "id": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "name": "Man Manasseh",
+    "email": "mainamamansseh3674@gmail.com",
+    "phone": "+254711223344",
+    "unitNumber": "B-201",
+    "profileImage": "https://cdn-icons-png.flaticon.com/512/4140/4140037.png",
+    "createdAt": "2025-11-04T14:00:00Z"
+  },
+  {
+    "id": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "name": "Test User",
+    "email": "Testuser@gmail.com",
+    "phone": "+254799000111",
+    "unitNumber": "C-301",
+    "profileImage": "https://cdn-icons-png.flaticon.com/512/1144/1144760.png",
+    "createdAt": "2025-11-04T14:00:00Z"
+  },
+  {
+    "id": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "name": "Manasseh M.",
+    "email": "mainamanasseh02@gmail.com",
+    "phone": "+254710987654",
+    "unitNumber": "D-401",
+    "profileImage": "https://cdn-icons-png.flaticon.com/512/1144/1144760.png",
+    "createdAt": "2025-11-04T14:00:00Z"
+  }
+]

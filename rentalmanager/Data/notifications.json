@@ -1,0 +1,35 @@
+[
+  {
+    "id": "NOTIF_001",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Rent Bill Due",
+    "message": "Your November rent of KSh 12,000 is due by 30th.",
+    "isRead": false,
+    "createdAt": "2025-11-01T10:00:00Z"
+  },
+  {
+    "id": "NOTIF_002",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Maintenance Request Resolved",
+    "message": "Your bathroom drainage issue has been fixed successfully.",
+    "isRead": true,
+    "createdAt": "2025-10-28T15:00:00Z"
+  },
+  {
+    "id": "NOTIF_003",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Payment Received",
+    "message": "We have received your electricity payment of KSh 1,200. Thank you!",
+    "isRead": false,
+    "createdAt": "2025-10-29T17:00:00Z"
+  },
+  {
+    "id": "NOTIF_004",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "title": "System Update",
+    "message": "We have introduced a new payment tracking feature.",
+    "isRead": true,
+    "createdAt": "2025-11-02T12:00:00Z"
+  }
+]
+

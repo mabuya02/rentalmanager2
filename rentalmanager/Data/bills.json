@@ -1,0 +1,59 @@
+[
+  {
+    "id": "BILL_001",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type": "rent",
+    "amount": 12000,
+    "status": "unpaid",
+    "dueDate": "2025-11-30T00:00:00Z"
+  },
+  {
+    "id": "BILL_002",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type": "water",
+    "amount": 950,
+    "status": "paid",
+    "dueDate": "2025-10-31T00:00:00Z"
+  },
+  {
+    "id": "BILL_003",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type": "rent",
+    "amount": 13000,
+    "status": "unpaid",
+    "dueDate": "2025-11-28T00:00:00Z"
+  },
+  {
+    "id": "BILL_004",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type": "rent",
+    "amount": 13500,
+    "status": "unpaid",
+    "dueDate": "2025-11-30T00:00:00Z"
+  },
+  {
+    "id": "BILL_005",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type": "electricity",
+    "amount": 1200,
+    "status": "paid",
+    "dueDate": "2025-10-29T00:00:00Z"
+  },
+  {
+    "id": "BILL_006",
+    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type": "rent",
+    "amount": 11500,
+    "status": "paid",
+    "dueDate": "2025-10-31T00:00:00Z"
+  },
+  {
+    "id": "BILL_007",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type": "water",
+    "amount": 1300,
+    "status": "unpaid",
+    "dueDate": "2025-11-27T00:00:00Z"
+  }
+]
+

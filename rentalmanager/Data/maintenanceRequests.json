@@ -1,0 +1,35 @@
+[
+  {
+    "id": "REQ_001",
+    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "title": "Broken Kitchen Tap",
+    "description": "Tap leaking continuously in the kitchen sink.",
+    "status": "pending",
+    "createdAt": "2025-11-01T08:00:00Z"
+  },
+  {
+    "id": "REQ_002",
+    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "title": "Blocked Bathroom Drain",
+    "description": "The bathroom drainage is clogged and overflowing.",
+    "status": "resolved",
+    "createdAt": "2025-10-25T09:00:00Z"
+  },
+  {
+    "id": "REQ_003",
+    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "title": "Door Lock Replacement",
+    "description": "Main door lock jammed; needs replacement.",
+    "status": "in-progress",
+    "createdAt": "2025-11-03T11:30:00Z"
+  },
+  {
+    "id": "REQ_004",
+    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "title": "No Electricity in Bedroom",
+    "description": "Lights not turning on in bedroom, possible wiring issue.",
+    "status": "resolved",
+    "createdAt": "2025-10-30T10:00:00Z"
+  }
+]
+
