@@ -12,149 +12,211 @@ struct DashboardView: View {
     @ObservedObject var viewModel: AuthViewModel
     @StateObject private var dashboardVM = DashboardViewModel()
 
-    // Local navigation triggers (for sheets or modals)
+    // MARK: - Sheet triggers
     @State private var showBills = false
     @State private var showPayments = false
     @State private var showMaintenance = false
     @State private var showProfile = false
+    @State private var showNotifications = false
+
+    @State private var selectedPayment: Payment?
 
     var body: some View {
-        ZStack {
-            LinearGradient(colors: [Color.blue.opacity(0.1), .white],
-                           startPoint: .top,
-                           endPoint: .bottom)
-                .ignoresSafeArea()
+        NavigationStack {
+            ZStack {
+                LinearGradient(colors: [Color.white, Color.blue.opacity(0.03)],
+                               startPoint: .top,
+                               endPoint: .bottom)
+                    .ignoresSafeArea()
 
-            if dashboardVM.isLoading {
-                ProgressView("Loading your dashboard…")
-                    .progressViewStyle(CircularProgressViewStyle(tint: .blue))
-                    .scaleEffect(1.3)
-            } else {
-                ScrollView(showsIndicators: false) {
-                    VStack(spacing: 24) {
+                if dashboardVM.isLoading {
+                    ProgressView("Loading dashboard…")
+                        .progressViewStyle(CircularProgressViewStyle(tint: .blue))
+                        .scaleEffect(1.3)
+                } else {
+                    ScrollView(showsIndicators: false) {
+                        VStack(alignment: .leading, spacing: 24) {
 
-                        // MARK: Header
-                        HStack(spacing: 16) {
-                            Image(systemName: "person.circle.fill")
-                                .resizable()
-                                .frame(width: 55, height: 55)
-                                .foregroundColor(.blue)
-
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text("Welcome back 👋🏽")
-                                    .font(.headline)
-                                Text(viewModel.userEmail)
-                                    .font(.subheadline)
-                                    .foregroundColor(.gray)
-                            }
-                            Spacer()
-                        }
-                        .padding(.horizontal)
-
-                        // MARK: Summary Cards
-                        VStack(spacing: 20) {
-                            DashboardCardView(
-                                title: "Bills Due",
-                                subtitle: "Upcoming rent or water bills",
-                                value: dashboardVM.totalUnpaidBills,
-                                icon: "doc.text.fill",
-                                color: .orange
-                            )
-
-                            DashboardCardView(
-                                title: "Total Payments",
-                                subtitle: "Rent + Utilities paid",
-                                value: dashboardVM.totalPayments,
-                                icon: "creditcard.fill",
-                                color: .green
-                            )
-
-                            DashboardCardView(
-                                title: "Maintenance",
-                                subtitle: "Active service requests",
-                                value: dashboardVM.activeMaintenanceCount,
-                                icon: "wrench.and.screwdriver.fill",
-                                color: .blue
-                            )
-                        }
-                        .padding(.horizontal)
-
-                        // MARK: Quick Actions
-                        VStack(alignment: .leading, spacing: 14) {
-                            Text("Quick Actions")
-                                .font(.headline)
-                                .padding(.horizontal)
-
-                            HStack(spacing: 16) {
-                                Button { showBills = true } label: {
-                                    QuickActionButton(title: "Bills",
-                                                      icon: "doc.plaintext.fill",
-                                                      color: .orange)
+                            // MARK: - Greeting Header
+                            HStack {
+                                VStack(alignment: .leading, spacing: 6) {
+                                    Text(greetingMessage())
+                                        .font(.title3)
+                                        .fontWeight(.semibold)
+                                    Text(viewModel.userEmail)
+                                        .font(.subheadline)
+                                        .foregroundColor(.gray)
                                 }
 
-                                Button { showPayments = true } label: {
-                                    QuickActionButton(title: "Payments",
-                                                      icon: "banknote.fill",
-                                                      color: .green)
-                                }
+                                Spacer()
 
-                                Button { showMaintenance = true } label: {
-                                    QuickActionButton(title: "Maintenance",
-                                                      icon: "wrench.fill",
-                                                      color: .blue)
-                                }
+                                HStack(spacing: 14) {
+                                    Button { showNotifications = true } label: {
+                                        Circle()
+                                            .fill(Color(.systemGray6))
+                                            .frame(width: 38, height: 38)
+                                            .overlay(
+                                                Image(systemName: "bell.fill")
+                                                    .foregroundColor(.blue)
+                                                    .font(.system(size: 18, weight: .medium))
+                                            )
+                                    }
 
-                                Button { showProfile = true } label: {
-                                    QuickActionButton(title: "Profile",
-                                                      icon: "person.crop.circle.fill",
-                                                      color: .purple)
+                                    Button { showProfile = true } label: {
+                                        Circle()
+                                            .fill(Color(.systemGray6))
+                                            .frame(width: 38, height: 38)
+                                            .overlay(
+                                                Image(systemName: "person.crop.circle.fill")
+                                                    .resizable()
+                                                    .foregroundColor(.blue)
+                                                    .frame(width: 32, height: 32)
+                                            )
+                                    }
                                 }
                             }
                             .padding(.horizontal)
-                        }
+                            .padding(.top, 8)
 
-                        Spacer(minLength: 30)
+                            // MARK: - Horizontal Cards
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 16) {
+                                    DashboardCardHorizontal(
+                                        title: "Total Payments",
+                                        value: dashboardVM.totalPayments,
+                                        subtitle: "Rent + utilities paid",
+                                        icon: "creditcard.fill",
+                                        gradient: LinearGradient(colors: [Color.green.opacity(0.3), .white], startPoint: .topLeading, endPoint: .bottomTrailing),
+                                        color: .green
+                                    )
 
-                        // MARK: Logout
-                        Button(action: viewModel.logout) {
-                            Text("Logout")
-                                .fontWeight(.semibold)
-                                .foregroundColor(.white)
-                                .frame(maxWidth: .infinity)
-                                .padding()
-                                .background(Color.red)
-                                .cornerRadius(12)
-                                .shadow(color: .red.opacity(0.3), radius: 6, y: 3)
+                                    DashboardCardHorizontal(
+                                        title: "Maintenance",
+                                        value: dashboardVM.activeMaintenanceCount,
+                                        subtitle: "Active requests",
+                                        icon: "wrench.and.screwdriver.fill",
+                                        gradient: LinearGradient(colors: [Color.blue.opacity(0.3), .white], startPoint: .topLeading, endPoint: .bottomTrailing),
+                                        color: .blue
+                                    )
+
+                                    DashboardCardHorizontal(
+                                        title: "Bills Due",
+                                        value: dashboardVM.totalUnpaidBills,
+                                        subtitle: "Total Due: \(dashboardVM.totalDueAmount)",
+                                        icon: "doc.text.fill",
+                                        gradient: LinearGradient(colors: [Color.orange.opacity(0.3), .white], startPoint: .topLeading, endPoint: .bottomTrailing),
+                                        color: .orange
+                                    )
+                                }
                                 .padding(.horizontal)
-                        }
+                            }
 
-                        Spacer(minLength: 40)
+                            // MARK: - Quick Actions
+                            VStack(alignment: .leading, spacing: 14) {
+                                Text("Quick Actions")
+                                    .font(.headline)
+                                    .padding(.horizontal)
+
+                                HStack(spacing: 16) {
+                                    Button { showBills = true } label: {
+                                        QuickActionButton(title: "Pay Bills",
+                                                          icon: "banknote.fill",
+                                                          color: .green)
+                                    }
+
+                                    Button { showMaintenance = true } label: {
+                                        QuickActionButton(title: "New Request",
+                                                          icon: "plus.circle.fill",
+                                                          color: .blue)
+                                    }
+                                }
+                                .padding(.horizontal)
+                            }
+
+                            // MARK: - Recent Bills Paid
+                            VStack(alignment: .leading, spacing: 12) {
+                                Text("Recent Bills Paid")
+                                    .font(.headline)
+                                    .padding(.horizontal)
+
+                                if dashboardVM.recentPayments.isEmpty {
+                                    Text("No recent payments found.")
+                                        .foregroundColor(.gray)
+                                        .font(.subheadline)
+                                        .padding(.horizontal)
+                                } else {
+                                    VStack(spacing: 10) {
+                                        ForEach(dashboardVM.recentPayments.prefix(10)) { p in
+                                            Button {
+                                                selectedPayment = p
+                                            } label: {
+                                                HStack {
+                                                    VStack(alignment: .leading, spacing: 4) {
+                                                        Text(p.method.capitalized)
+                                                            .font(.headline)
+                                                        Text(p.dateFormatted)
+                                                            .font(.caption)
+                                                            .foregroundColor(.gray)
+                                                    }
+                                                    Spacer()
+                                                    VStack(alignment: .trailing, spacing: 2) {
+                                                        Text(formatKES(p.amount))
+                                                            .fontWeight(.semibold)
+                                                            .foregroundColor(.blue)
+                                                        Text(p.status.capitalized)
+                                                            .font(.caption)
+                                                            .foregroundColor(p.status.lowercased() == "paid" ? .green : .orange)
+                                                    }
+                                                }
+                                                .padding()
+                                                .background(Color.white)
+                                                .cornerRadius(16)
+                                                .shadow(color: .gray.opacity(0.07), radius: 5, y: 3)
+                                                .padding(.horizontal)
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            Spacer(minLength: 80)
+                        }
+                        .padding(.top, 12)
                     }
-                    .padding(.top, 30)
-                    .animation(.easeInOut(duration: 0.4),
-                               value: dashboardVM.totalPayments)
                 }
             }
-        }
-        .onAppear {
-            if let user = Auth.auth().currentUser {
-                dashboardVM.loadData(forUserId: user.uid)
-            } else {
-                dashboardVM.loadData(forEmail: viewModel.userEmail)
+            .onAppear {
+                if let user = Auth.auth().currentUser {
+                    dashboardVM.loadData(forUserId: user.uid)
+                } else {
+                    dashboardVM.loadData(forEmail: viewModel.userEmail)
+                }
+            }
+            // MARK: - Sheets
+            .sheet(isPresented: $showBills) { BillsListView(authVM: viewModel) }
+            .sheet(isPresented: $showPayments) { PaymentsListView(authVM: viewModel) }
+            .sheet(isPresented: $showMaintenance) { NewMaintenanceRequestView(authVM: viewModel, maintenanceVM: MaintenanceViewModel()) }
+            .sheet(isPresented: $showProfile) { ProfileView(authVM: viewModel) }
+            .sheet(isPresented: $showNotifications) { NotificationsListView(authVM: viewModel) }
+            .sheet(item: $selectedPayment) { payment in
+                PaymentDetailModal(payment: payment)
             }
         }
-        // MARK: - Sheets for navigation (instead of pushing new stacks)
-        .sheet(isPresented: $showBills) {
-            BillsListView(authVM: viewModel)
-        }
-        .sheet(isPresented: $showPayments) {
-            PaymentsListView(authVM: viewModel)
-        }
-        .sheet(isPresented: $showMaintenance) {
-            MaintenanceListView(authVM: viewModel)
-        }
-        .sheet(isPresented: $showProfile) {
-            ProfileView(authVM: viewModel)
+    }
+
+    private func formatKES(_ amount: Double) -> String {
+        let nf = NumberFormatter()
+        nf.numberStyle = .decimal
+        nf.groupingSeparator = ","
+        return "KES " + (nf.string(from: NSNumber(value: amount)) ?? "\(amount)")
+    }
+
+    private func greetingMessage() -> String {
+        let hour = Calendar.current.component(.hour, from: Date())
+        switch hour {
+        case 5..<12: return "Good Morning, Mabuya ☀️"
+        case 12..<17: return "Good Afternoon, Mabuya 🌤️"
+        default: return "Good Evening, Mabuya 🌙"
         }
     }
 }

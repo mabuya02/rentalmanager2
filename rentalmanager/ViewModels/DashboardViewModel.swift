@@ -8,59 +8,60 @@
 import Foundation
 import Combine
 
-@MainActor
 final class DashboardViewModel: ObservableObject {
+    @Published var isLoading: Bool = true
     @Published var totalUnpaidBills: String = "0"
     @Published var totalPayments: String = "0"
+    @Published var totalDueAmount: String = "KES 0"
     @Published var activeMaintenanceCount: String = "0"
-    @Published var isLoading = false
+    @Published var recentPayments: [Payment] = []
 
-    private let storage = LocalStorageService.shared
+    private let iso = ISO8601DateFormatter()
 
-    // ✅ Load using Firebase UID
     func loadData(forUserId userId: String) {
-        isLoading = true
-        DispatchQueue.global(qos: .background).async {
-            let bills = self.storage.fetchBills(for: userId)
-            let payments = self.storage.fetchPayments(for: userId)
-            let maintenance = self.storage.fetchMaintenanceRequests(for: userId)
+        DispatchQueue.global(qos: .userInitiated).async {
+            let bills = LocalStorageService.shared.fetchBills(for: userId)
+            let payments = LocalStorageService.shared.fetchPayments(for: userId)
+            let maintenance = LocalStorageService.shared.fetchMaintenanceRequests(for: userId)
 
-            let unpaidTotal = bills
-                .filter { $0.status.lowercased() == "unpaid" }
-                .reduce(0.0) { $0 + $1.amount }
+            let unpaid = bills.filter { $0.status.lowercased() == "unpaid" }
+            let unpaidCount = unpaid.count
+            let totalUnpaid = unpaid.map { $0.amount }.reduce(0, +)
 
-            let paidTotal = payments.reduce(0.0) { $0 + $1.amount }
+            let totalPaidAmount = payments.map { $0.amount }.reduce(0, +)
+            let activeMaint = maintenance.filter { $0.status.lowercased() != "resolved" }.count
 
-            let activeMaintenance = maintenance
-                .filter { $0.status.lowercased() != "resolved" }
-                .count
+            let sortedRecent = payments.sorted { a, b in
+                let da = self.iso.date(from: a.datePaid) ?? .distantPast
+                let db = self.iso.date(from: b.datePaid) ?? .distantPast
+                return da > db
+            }
 
-            Task { @MainActor in
-                self.totalUnpaidBills = String(format: "KES %.0f", unpaidTotal)
-                self.totalPayments = String(format: "KES %.0f", paidTotal)
-                self.activeMaintenanceCount = "\(activeMaintenance)"
+            DispatchQueue.main.async {
+                self.totalUnpaidBills = "\(unpaidCount)"
+                self.totalPayments = self.formatAmount(totalPaidAmount)
+                self.totalDueAmount = self.formatAmount(totalUnpaid)
+                self.activeMaintenanceCount = "\(activeMaint)"
+                self.recentPayments = Array(sortedRecent.prefix(10))
                 self.isLoading = false
             }
         }
     }
 
-    // ✅ Fallback – if only email is available
     func loadData(forEmail email: String) {
-        isLoading = true
-        DispatchQueue.global(qos: .background).async {
-            let users = self.storage.fetchAllUsers()
-            guard let user = users.first(where: {
-                $0.email.lowercased() == email.lowercased()
-            }) else {
-                Task { @MainActor in self.isLoading = false }
-                return
-            }
-
-            // ✅ Call safely back on main actor
-            Task { @MainActor in
-                self.loadData(forUserId: user.id)
-            }
+        let users = LocalStorageService.shared.fetchAllUsers()
+        if let match = users.first(where: { $0.email.lowercased() == email.lowercased() }) {
+            loadData(forUserId: match.id)
+        } else {
+            DispatchQueue.main.async { self.isLoading = false }
         }
+    }
+
+    private func formatAmount(_ value: Double) -> String {
+        let nf = NumberFormatter()
+        nf.numberStyle = .decimal
+        nf.groupingSeparator = ","
+        return "KES " + (nf.string(from: NSNumber(value: value)) ?? "\(value)")
     }
 }
 

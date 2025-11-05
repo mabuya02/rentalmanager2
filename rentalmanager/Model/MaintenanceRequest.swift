@@ -12,15 +12,15 @@ struct MaintenanceRequest: Codable, Identifiable {
     let userId: String
     let title: String
     let description: String
-    let status: String
-    let createdAt: String
+    var status: String              // ← was let; now var so we can update it
+    let createdAt: String           // ISO8601 string
 
     var createdAtFormatted: String {
-        let formatter = ISO8601DateFormatter()
-        if let date = formatter.date(from: createdAt) {
-            let display = DateFormatter()
-            display.dateStyle = .medium
-            return display.string(from: date)
+        let iso = ISO8601DateFormatter()
+        if let date = iso.date(from: createdAt) {
+            let df = DateFormatter()
+            df.dateStyle = .medium
+            return df.string(from: date)
         }
         return createdAt
     }

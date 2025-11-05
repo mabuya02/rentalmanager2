@@ -8,74 +8,53 @@
 import Foundation
 import Combine
 
-@MainActor
 final class PaymentViewModel: ObservableObject {
     @Published var payments: [Payment] = []
-    @Published var selectedPayment: Payment?
 
-    private let storage = LocalStorageService.shared
+    var totalPaid: Double {
+        payments.filter { $0.status.lowercased() == "successful" }
+            .reduce(0) { $0 + $1.amount }
+    }
 
-    /// Load payments using Firebase UID (preferred)
+    var successfulCount: Int {
+        payments.filter { $0.status.lowercased() == "successful" }.count
+    }
+
+    // MARK: - Load
     func loadPayments(forUserId userId: String) {
-        Task {
-            // Run background JSON read
-            let fetched = await Self.background {
-                LocalStorageService.shared.fetchPayments(for: userId)
-            }
-
-            // Update UI safely on MainActor
-            self.payments = fetched
-        }
+        let all: [Payment] = LocalStorageService.shared.loadJSON([Payment].self, from: "payments")
+        payments = all.filter { $0.userId == userId }.sorted { $0.datePaid > $1.datePaid }
     }
 
-    /// Fallback: load payments via email
     func loadPayments(forEmail email: String) {
-        Task {
-            let emailLower = email.lowercased()
-
-            // Fetch users off main actor
-            let users = await Self.background {
-                LocalStorageService.shared.fetchAllUsers()
-            }
-
-            guard let user = users.first(where: { $0.email.lowercased() == emailLower }) else {
-                self.payments = []
-                return
-            }
-
-            // Fetch payments for that user
-            let fetched = await Self.background {
-                LocalStorageService.shared.fetchPayments(for: user.id)
-            }
-
-            self.payments = fetched
+        let users = LocalStorageService.shared.fetchAllUsers()
+        if let match = users.first(where: { $0.email.lowercased() == email.lowercased() }) {
+            loadPayments(forUserId: match.id)
         }
     }
 
-    /// Add a new payment locally (write JSON, then reflect in UI)
-    func addPayment(_ payment: Payment) {
-        Task {
-            // Run the file write off the main thread
-            await Self.background {
-                LocalStorageService.shared.add(payment, to: "payments")
-            }
+    // MARK: - Add new payment
+    func addPayment(for bill: Bill, method: String) {
+        let newPayment = Payment(
+            id: UUID().uuidString,
+            userId: bill.userId,
+            billId: bill.id,
+            amount: bill.amount,
+            method: method,
+            reference: "TXN\(Int.random(in: 10000...99999))",
+            status: "successful",
+            datePaid: ISO8601DateFormatter().string(from: Date())
+        )
 
-            // Reflect in-memory update on UI
-            self.payments.append(payment)
+        var allPayments: [Payment] = LocalStorageService.shared.loadJSON([Payment].self, from: "payments")
+        allPayments.append(newPayment)
+        LocalStorageService.shared.saveJSON(allPayments, to: "payments")
+
+        DispatchQueue.main.async {
+            self.payments = allPayments.filter { $0.userId == bill.userId }
         }
-    }
 
-    func selectPayment(_ payment: Payment) {
-        selectedPayment = payment
-    }
-
-    // MARK: - Utility helper to safely run background I/O
-    private static func background<T>(_ work: @escaping () -> T) async -> T {
-        await withCheckedContinuation { continuation in
-            DispatchQueue.global(qos: .background).async {
-                continuation.resume(returning: work())
-            }
-        }
+        print("💳 Payment added for bill \(bill.id) using \(method)")
     }
 }
 

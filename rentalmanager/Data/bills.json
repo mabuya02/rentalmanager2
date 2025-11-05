@@ -1,1002 +1,1002 @@
 [
   {
-    "id": "BILL_001",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "rent",
-    "amount": 12000,
-    "status": "unpaid",
-    "dueDate": "2025-11-30T00:00:00Z"
-  },
-  {
-    "id": "BILL_002",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "water",
-    "amount": 950,
-    "status": "paid",
-    "dueDate": "2025-10-31T00:00:00Z"
-  },
-  {
-    "id": "BILL_003",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "rent",
-    "amount": 13000,
-    "status": "unpaid",
-    "dueDate": "2025-11-28T00:00:00Z"
-  },
-  {
-    "id": "BILL_004",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "rent",
-    "amount": 13500,
-    "status": "unpaid",
-    "dueDate": "2025-11-30T00:00:00Z"
-  },
-  {
-    "id": "BILL_005",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "electricity",
-    "amount": 1200,
-    "status": "paid",
-    "dueDate": "2025-10-29T00:00:00Z"
-  },
-  {
-    "id": "BILL_006",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "rent",
-    "amount": 11500,
-    "status": "paid",
-    "dueDate": "2025-10-31T00:00:00Z"
-  },
-  {
-    "id": "BILL_007",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "water",
-    "amount": 1300,
-    "status": "unpaid",
-    "dueDate": "2025-11-27T00:00:00Z"
-  },
-  {
-    "id": "BILL_008",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "maintenance_fee",
-    "amount": 1347,
-    "status": "unpaid",
-    "dueDate": "2025-05-31T00:00:00Z"
-  },
-  {
-    "id": "BILL_009",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "rent",
-    "amount": 12291,
-    "status": "paid",
-    "dueDate": "2025-12-09T00:00:00Z"
-  },
-  {
-    "id": "BILL_010",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "gas",
-    "amount": 870,
-    "status": "unpaid",
-    "dueDate": "2025-06-25T00:00:00Z"
-  },
-  {
-    "id": "BILL_011",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "water",
-    "amount": 1305,
-    "status": "unpaid",
-    "dueDate": "2026-03-13T00:00:00Z"
-  },
-  {
-    "id": "BILL_012",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "electricity",
-    "amount": 1265,
-    "status": "unpaid",
-    "dueDate": "2026-02-15T00:00:00Z"
-  },
-  {
-    "id": "BILL_013",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "gas",
-    "amount": 1077,
-    "status": "paid",
-    "dueDate": "2025-10-28T00:00:00Z"
+    "amount" : 12000,
+    "status" : "unpaid",
+    "id" : "BILL_001",
+    "type" : "rent",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "dueDate" : "2025-11-30T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_002",
+    "amount" : 950,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "water",
+    "dueDate" : "2025-10-31T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_003",
+    "amount" : 13000,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "rent",
+    "dueDate" : "2025-11-28T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_004",
+    "amount" : 13500,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "rent",
+    "dueDate" : "2025-11-30T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_005",
+    "amount" : 1200,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "electricity",
+    "dueDate" : "2025-10-29T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_006",
+    "amount" : 11500,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "rent",
+    "dueDate" : "2025-10-31T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_007",
+    "amount" : 1300,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "water",
+    "dueDate" : "2025-11-27T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_008",
+    "amount" : 1347,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-05-31T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_009",
+    "amount" : 12291,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "rent",
+    "dueDate" : "2025-12-09T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_010",
+    "amount" : 870,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "gas",
+    "dueDate" : "2025-06-25T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_011",
+    "amount" : 1305,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "water",
+    "dueDate" : "2026-03-13T00:00:00Z"
+  },
+  {
+    "amount" : 1265,
+    "id" : "BILL_012",
+    "status" : "unpaid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "electricity",
+    "dueDate" : "2026-02-15T00:00:00Z"
+  },
+  {
+    "amount" : 1077,
+    "id" : "BILL_013",
+    "status" : "paid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "gas",
+    "dueDate" : "2025-10-28T00:00:00Z"
   },
   {
-    "id": "BILL_014",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "rent",
-    "amount": 10666,
-    "status": "unpaid",
-    "dueDate": "2026-02-09T00:00:00Z"
+    "amount" : 10666,
+    "id" : "BILL_014",
+    "status" : "unpaid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "rent",
+    "dueDate" : "2026-02-09T00:00:00Z"
   },
   {
-    "id": "BILL_015",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "electricity",
-    "amount": 2003,
-    "status": "paid",
-    "dueDate": "2025-11-21T00:00:00Z"
+    "amount" : 2003,
+    "id" : "BILL_015",
+    "status" : "paid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "electricity",
+    "dueDate" : "2025-11-21T00:00:00Z"
   },
   {
-    "id": "BILL_016",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "internet",
-    "amount": 2282,
-    "status": "paid",
-    "dueDate": "2025-06-08T00:00:00Z"
+    "amount" : 2282,
+    "id" : "BILL_016",
+    "status" : "paid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "internet",
+    "dueDate" : "2025-06-08T00:00:00Z"
   },
   {
-    "id": "BILL_017",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "gas",
-    "amount": 639,
-    "status": "unpaid",
-    "dueDate": "2025-07-12T00:00:00Z"
+    "amount" : 639,
+    "id" : "BILL_017",
+    "status" : "unpaid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "gas",
+    "dueDate" : "2025-07-12T00:00:00Z"
   },
   {
-    "id": "BILL_018",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "internet",
-    "amount": 2662,
-    "status": "paid",
-    "dueDate": "2025-09-22T00:00:00Z"
+    "amount" : 2662,
+    "id" : "BILL_018",
+    "status" : "paid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "internet",
+    "dueDate" : "2025-09-22T00:00:00Z"
   },
   {
-    "id": "BILL_019",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "gas",
-    "amount": 1092,
-    "status": "unpaid",
-    "dueDate": "2026-04-28T00:00:00Z"
+    "amount" : 1092,
+    "id" : "BILL_019",
+    "status" : "unpaid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "gas",
+    "dueDate" : "2026-04-28T00:00:00Z"
   },
   {
-    "id": "BILL_020",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "internet",
-    "amount": 2142,
-    "status": "paid",
-    "dueDate": "2025-08-17T00:00:00Z"
+    "amount" : 2142,
+    "id" : "BILL_020",
+    "status" : "paid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "internet",
+    "dueDate" : "2025-08-17T00:00:00Z"
   },
   {
-    "id": "BILL_021",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "maintenance_fee",
-    "amount": 1606,
-    "status": "paid",
-    "dueDate": "2025-06-14T00:00:00Z"
+    "amount" : 1606,
+    "id" : "BILL_021",
+    "status" : "paid",
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-06-14T00:00:00Z"
   },
   {
-    "id": "BILL_022",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "water",
-    "amount": 794,
-    "status": "unpaid",
-    "dueDate": "2025-11-10T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_022",
+    "amount" : 794,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "water",
+    "dueDate" : "2025-11-10T00:00:00Z"
   },
   {
-    "id": "BILL_023",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "water",
-    "amount": 1263,
-    "status": "unpaid",
-    "dueDate": "2026-02-26T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_023",
+    "amount" : 1263,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "water",
+    "dueDate" : "2026-02-26T00:00:00Z"
   },
   {
-    "id": "BILL_024",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "water",
-    "amount": 1095,
-    "status": "paid",
-    "dueDate": "2026-04-24T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_024",
+    "amount" : 1095,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "water",
+    "dueDate" : "2026-04-24T00:00:00Z"
   },
   {
-    "id": "BILL_025",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "internet",
-    "amount": 2622,
-    "status": "unpaid",
-    "dueDate": "2026-04-04T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_025",
+    "amount" : 2622,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "internet",
+    "dueDate" : "2026-04-04T00:00:00Z"
   },
   {
-    "id": "BILL_026",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "rent",
-    "amount": 12502,
-    "status": "paid",
-    "dueDate": "2025-06-11T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_026",
+    "amount" : 12502,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "rent",
+    "dueDate" : "2025-06-11T00:00:00Z"
   },
   {
-    "id": "BILL_027",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "electricity",
-    "amount": 1345,
-    "status": "unpaid",
-    "dueDate": "2026-03-16T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_027",
+    "amount" : 1345,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "electricity",
+    "dueDate" : "2026-03-16T00:00:00Z"
   },
   {
-    "id": "BILL_028",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "electricity",
-    "amount": 1517,
-    "status": "paid",
-    "dueDate": "2026-02-08T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_028",
+    "amount" : 1517,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "electricity",
+    "dueDate" : "2026-02-08T00:00:00Z"
   },
   {
-    "id": "BILL_029",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "maintenance_fee",
-    "amount": 1142,
-    "status": "paid",
-    "dueDate": "2025-09-13T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_029",
+    "amount" : 1142,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-09-13T00:00:00Z"
   },
   {
-    "id": "BILL_030",
-    "userId": "pqzvX1OqRAZhX1I8OLsRSYRySe13",
-    "type": "rent",
-    "amount": 12082,
-    "status": "unpaid",
-    "dueDate": "2025-12-21T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_030",
+    "amount" : 12082,
+    "userId" : "pqzvX1OqRAZhX1I8OLsRSYRySe13",
+    "type" : "rent",
+    "dueDate" : "2025-12-21T00:00:00Z"
   },
   {
-    "id": "BILL_031",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "internet",
-    "amount": 2150,
-    "status": "paid",
-    "dueDate": "2025-05-08T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_031",
+    "amount" : 2150,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "internet",
+    "dueDate" : "2025-05-08T00:00:00Z"
   },
   {
-    "id": "BILL_032",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "rent",
-    "amount": 12147,
-    "status": "unpaid",
-    "dueDate": "2025-10-04T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_032",
+    "amount" : 12147,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "rent",
+    "dueDate" : "2025-10-04T00:00:00Z"
   },
   {
-    "id": "BILL_033",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "water",
-    "amount": 1403,
-    "status": "paid",
-    "dueDate": "2025-12-10T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_033",
+    "amount" : 1403,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "water",
+    "dueDate" : "2025-12-10T00:00:00Z"
   },
   {
-    "id": "BILL_034",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "internet",
-    "amount": 2382,
-    "status": "paid",
-    "dueDate": "2026-04-23T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_034",
+    "amount" : 2382,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "internet",
+    "dueDate" : "2026-04-23T00:00:00Z"
   },
   {
-    "id": "BILL_035",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "internet",
-    "amount": 2251,
-    "status": "paid",
-    "dueDate": "2025-07-08T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_035",
+    "amount" : 2251,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "internet",
+    "dueDate" : "2025-07-08T00:00:00Z"
   },
   {
-    "id": "BILL_036",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "water",
-    "amount": 1153,
-    "status": "paid",
-    "dueDate": "2026-02-03T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_036",
+    "amount" : 1153,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "water",
+    "dueDate" : "2026-02-03T00:00:00Z"
   },
   {
-    "id": "BILL_037",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "rent",
-    "amount": 14647,
-    "status": "unpaid",
-    "dueDate": "2026-04-10T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_037",
+    "amount" : 14647,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "rent",
+    "dueDate" : "2026-04-10T00:00:00Z"
   },
   {
-    "id": "BILL_038",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "internet",
-    "amount": 2747,
-    "status": "paid",
-    "dueDate": "2026-01-04T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_038",
+    "amount" : 2747,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "internet",
+    "dueDate" : "2026-01-04T00:00:00Z"
   },
   {
-    "id": "BILL_039",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "electricity",
-    "amount": 826,
-    "status": "unpaid",
-    "dueDate": "2026-03-02T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_039",
+    "amount" : 826,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "electricity",
+    "dueDate" : "2026-03-02T00:00:00Z"
   },
   {
-    "id": "BILL_040",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "water",
-    "amount": 1185,
-    "status": "paid",
-    "dueDate": "2026-03-16T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_040",
+    "amount" : 1185,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "water",
+    "dueDate" : "2026-03-16T00:00:00Z"
   },
   {
-    "id": "BILL_041",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "gas",
-    "amount": 1091,
-    "status": "paid",
-    "dueDate": "2025-07-03T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_041",
+    "amount" : 1091,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "gas",
+    "dueDate" : "2025-07-03T00:00:00Z"
   },
   {
-    "id": "BILL_042",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "maintenance_fee",
-    "amount": 1833,
-    "status": "unpaid",
-    "dueDate": "2026-04-07T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_042",
+    "amount" : 1833,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "maintenance_fee",
+    "dueDate" : "2026-04-07T00:00:00Z"
   },
   {
-    "id": "BILL_043",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "internet",
-    "amount": 2551,
-    "status": "unpaid",
-    "dueDate": "2025-09-05T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_043",
+    "amount" : 2551,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "internet",
+    "dueDate" : "2025-09-05T00:00:00Z"
   },
   {
-    "id": "BILL_044",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "water",
-    "amount": 965,
-    "status": "paid",
-    "dueDate": "2026-01-04T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_044",
+    "amount" : 965,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "water",
+    "dueDate" : "2026-01-04T00:00:00Z"
   },
   {
-    "id": "BILL_045",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "electricity",
-    "amount": 1671,
-    "status": "paid",
-    "dueDate": "2025-11-12T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_045",
+    "amount" : 1671,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "electricity",
+    "dueDate" : "2025-11-12T00:00:00Z"
   },
   {
-    "id": "BILL_046",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "internet",
-    "amount": 2590,
-    "status": "paid",
-    "dueDate": "2025-11-16T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_046",
+    "amount" : 2590,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "internet",
+    "dueDate" : "2025-11-16T00:00:00Z"
   },
   {
-    "id": "BILL_047",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "rent",
-    "amount": 10532,
-    "status": "paid",
-    "dueDate": "2026-02-12T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_047",
+    "amount" : 10532,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "rent",
+    "dueDate" : "2026-02-12T00:00:00Z"
   },
   {
-    "id": "BILL_048",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "water",
-    "amount": 504,
-    "status": "paid",
-    "dueDate": "2026-02-23T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_048",
+    "amount" : 504,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "water",
+    "dueDate" : "2026-02-23T00:00:00Z"
   },
   {
-    "id": "BILL_049",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "water",
-    "amount": 821,
-    "status": "unpaid",
-    "dueDate": "2025-12-24T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_049",
+    "amount" : 821,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "water",
+    "dueDate" : "2025-12-24T00:00:00Z"
   },
   {
-    "id": "BILL_050",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "gas",
-    "amount": 749,
-    "status": "paid",
-    "dueDate": "2026-02-09T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_050",
+    "amount" : 749,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "gas",
+    "dueDate" : "2026-02-09T00:00:00Z"
   },
   {
-    "id": "BILL_051",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "maintenance_fee",
-    "amount": 1134,
-    "status": "unpaid",
-    "dueDate": "2025-06-12T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_051",
+    "amount" : 1134,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-06-12T00:00:00Z"
   },
   {
-    "id": "BILL_052",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "electricity",
-    "amount": 1876,
-    "status": "paid",
-    "dueDate": "2025-06-23T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_052",
+    "amount" : 1876,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "electricity",
+    "dueDate" : "2025-06-23T00:00:00Z"
   },
   {
-    "id": "BILL_053",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "rent",
-    "amount": 13651,
-    "status": "unpaid",
-    "dueDate": "2025-11-20T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_053",
+    "amount" : 13651,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "rent",
+    "dueDate" : "2025-11-20T00:00:00Z"
   },
   {
-    "id": "BILL_054",
-    "userId": "XJ7GGtMv12ScXqn3cft8juVFG632",
-    "type": "maintenance_fee",
-    "amount": 1566,
-    "status": "unpaid",
-    "dueDate": "2026-03-15T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_054",
+    "amount" : 1566,
+    "userId" : "XJ7GGtMv12ScXqn3cft8juVFG632",
+    "type" : "maintenance_fee",
+    "dueDate" : "2026-03-15T00:00:00Z"
   },
   {
-    "id": "BILL_055",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "internet",
-    "amount": 2980,
-    "status": "unpaid",
-    "dueDate": "2025-05-29T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_055",
+    "amount" : 2980,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "internet",
+    "dueDate" : "2025-05-29T00:00:00Z"
   },
   {
-    "id": "BILL_056",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "maintenance_fee",
-    "amount": 1877,
-    "status": "paid",
-    "dueDate": "2026-01-12T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_056",
+    "amount" : 1877,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2026-01-12T00:00:00Z"
   },
   {
-    "id": "BILL_057",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "maintenance_fee",
-    "amount": 1036,
-    "status": "paid",
-    "dueDate": "2025-06-12T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_057",
+    "amount" : 1036,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-06-12T00:00:00Z"
   },
   {
-    "id": "BILL_058",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "electricity",
-    "amount": 1316,
-    "status": "paid",
-    "dueDate": "2026-01-29T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_058",
+    "amount" : 1316,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "electricity",
+    "dueDate" : "2026-01-29T00:00:00Z"
   },
   {
-    "id": "BILL_059",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "maintenance_fee",
-    "amount": 1568,
-    "status": "unpaid",
-    "dueDate": "2026-03-28T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_059",
+    "amount" : 1568,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2026-03-28T00:00:00Z"
   },
   {
-    "id": "BILL_060",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "gas",
-    "amount": 725,
-    "status": "unpaid",
-    "dueDate": "2026-03-03T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_060",
+    "amount" : 725,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "gas",
+    "dueDate" : "2026-03-03T00:00:00Z"
   },
   {
-    "id": "BILL_061",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "maintenance_fee",
-    "amount": 1971,
-    "status": "unpaid",
-    "dueDate": "2026-03-15T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_061",
+    "amount" : 1971,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2026-03-15T00:00:00Z"
   },
   {
-    "id": "BILL_062",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "water",
-    "amount": 1230,
-    "status": "paid",
-    "dueDate": "2025-06-03T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_062",
+    "amount" : 1230,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "water",
+    "dueDate" : "2025-06-03T00:00:00Z"
   },
   {
-    "id": "BILL_063",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "maintenance_fee",
-    "amount": 1599,
-    "status": "unpaid",
-    "dueDate": "2025-12-29T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_063",
+    "amount" : 1599,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-12-29T00:00:00Z"
   },
   {
-    "id": "BILL_064",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "internet",
-    "amount": 2724,
-    "status": "unpaid",
-    "dueDate": "2025-12-12T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_064",
+    "amount" : 2724,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "internet",
+    "dueDate" : "2025-12-12T00:00:00Z"
   },
   {
-    "id": "BILL_065",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "electricity",
-    "amount": 1053,
-    "status": "unpaid",
-    "dueDate": "2025-05-17T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_065",
+    "amount" : 1053,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "electricity",
+    "dueDate" : "2025-05-17T00:00:00Z"
   },
   {
-    "id": "BILL_066",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "internet",
-    "amount": 2255,
-    "status": "unpaid",
-    "dueDate": "2025-12-28T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_066",
+    "amount" : 2255,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "internet",
+    "dueDate" : "2025-12-28T00:00:00Z"
   },
   {
-    "id": "BILL_067",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "maintenance_fee",
-    "amount": 1268,
-    "status": "unpaid",
-    "dueDate": "2025-11-05T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_067",
+    "amount" : 1268,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-11-05T00:00:00Z"
   },
   {
-    "id": "BILL_068",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "maintenance_fee",
-    "amount": 1971,
-    "status": "paid",
-    "dueDate": "2025-10-04T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_068",
+    "amount" : 1971,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-10-04T00:00:00Z"
   },
   {
-    "id": "BILL_069",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "rent",
-    "amount": 11233,
-    "status": "unpaid",
-    "dueDate": "2025-07-29T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_069",
+    "amount" : 11233,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "rent",
+    "dueDate" : "2025-07-29T00:00:00Z"
   },
   {
-    "id": "BILL_070",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "rent",
-    "amount": 10699,
-    "status": "unpaid",
-    "dueDate": "2026-01-30T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_070",
+    "amount" : 10699,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "rent",
+    "dueDate" : "2026-01-30T00:00:00Z"
   },
   {
-    "id": "BILL_071",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "gas",
-    "amount": 825,
-    "status": "unpaid",
-    "dueDate": "2026-04-24T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_071",
+    "amount" : 825,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "gas",
+    "dueDate" : "2026-04-24T00:00:00Z"
   },
   {
-    "id": "BILL_072",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "rent",
-    "amount": 10994,
-    "status": "unpaid",
-    "dueDate": "2025-10-15T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_072",
+    "amount" : 10994,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "rent",
+    "dueDate" : "2025-10-15T00:00:00Z"
   },
   {
-    "id": "BILL_073",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "gas",
-    "amount": 897,
-    "status": "unpaid",
-    "dueDate": "2025-08-15T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_073",
+    "amount" : 897,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "gas",
+    "dueDate" : "2025-08-15T00:00:00Z"
   },
   {
-    "id": "BILL_074",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "internet",
-    "amount": 2385,
-    "status": "unpaid",
-    "dueDate": "2025-07-16T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_074",
+    "amount" : 2385,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "internet",
+    "dueDate" : "2025-07-16T00:00:00Z"
   },
   {
-    "id": "BILL_075",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "electricity",
-    "amount": 1183,
-    "status": "unpaid",
-    "dueDate": "2025-12-20T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_075",
+    "amount" : 1183,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "electricity",
+    "dueDate" : "2025-12-20T00:00:00Z"
   },
   {
-    "id": "BILL_076",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "maintenance_fee",
-    "amount": 1959,
-    "status": "unpaid",
-    "dueDate": "2026-03-03T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_076",
+    "amount" : 1959,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2026-03-03T00:00:00Z"
   },
   {
-    "id": "BILL_077",
-    "userId": "vxDm98s3DtOlUMdLOnqGE82yuMA2",
-    "type": "rent",
-    "amount": 13110,
-    "status": "paid",
-    "dueDate": "2025-11-09T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_077",
+    "amount" : 13110,
+    "userId" : "vxDm98s3DtOlUMdLOnqGE82yuMA2",
+    "type" : "rent",
+    "dueDate" : "2025-11-09T00:00:00Z"
   },
   {
-    "id": "BILL_078",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "electricity",
-    "amount": 2153,
-    "status": "paid",
-    "dueDate": "2025-09-13T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_078",
+    "amount" : 2153,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "electricity",
+    "dueDate" : "2025-09-13T00:00:00Z"
   },
   {
-    "id": "BILL_079",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "water",
-    "amount": 987,
-    "status": "unpaid",
-    "dueDate": "2025-08-16T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_079",
+    "amount" : 987,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "water",
+    "dueDate" : "2025-08-16T00:00:00Z"
   },
   {
-    "id": "BILL_080",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "gas",
-    "amount": 605,
-    "status": "paid",
-    "dueDate": "2025-08-23T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_080",
+    "amount" : 605,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "gas",
+    "dueDate" : "2025-08-23T00:00:00Z"
   },
   {
-    "id": "BILL_081",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "water",
-    "amount": 802,
-    "status": "paid",
-    "dueDate": "2025-09-03T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_081",
+    "amount" : 802,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "water",
+    "dueDate" : "2025-09-03T00:00:00Z"
   },
   {
-    "id": "BILL_082",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "internet",
-    "amount": 2472,
-    "status": "paid",
-    "dueDate": "2026-03-31T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_082",
+    "amount" : 2472,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "internet",
+    "dueDate" : "2026-03-31T00:00:00Z"
   },
   {
-    "id": "BILL_083",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "maintenance_fee",
-    "amount": 1828,
-    "status": "paid",
-    "dueDate": "2025-05-22T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_083",
+    "amount" : 1828,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-05-22T00:00:00Z"
   },
   {
-    "id": "BILL_084",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "water",
-    "amount": 1136,
-    "status": "unpaid",
-    "dueDate": "2025-06-12T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_084",
+    "amount" : 1136,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "water",
+    "dueDate" : "2025-06-12T00:00:00Z"
   },
   {
-    "id": "BILL_085",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "internet",
-    "amount": 2790,
-    "status": "unpaid",
-    "dueDate": "2025-12-02T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_085",
+    "amount" : 2790,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "internet",
+    "dueDate" : "2025-12-02T00:00:00Z"
   },
   {
-    "id": "BILL_086",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "gas",
-    "amount": 1165,
-    "status": "unpaid",
-    "dueDate": "2025-12-17T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_086",
+    "amount" : 1165,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "gas",
+    "dueDate" : "2025-12-17T00:00:00Z"
   },
   {
-    "id": "BILL_087",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "gas",
-    "amount": 629,
-    "status": "paid",
-    "dueDate": "2025-08-20T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_087",
+    "amount" : 629,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "gas",
+    "dueDate" : "2025-08-20T00:00:00Z"
   },
   {
-    "id": "BILL_088",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "rent",
-    "amount": 10804,
-    "status": "unpaid",
-    "dueDate": "2025-07-22T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_088",
+    "amount" : 10804,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "rent",
+    "dueDate" : "2025-07-22T00:00:00Z"
   },
   {
-    "id": "BILL_089",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "rent",
-    "amount": 10621,
-    "status": "paid",
-    "dueDate": "2025-08-21T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_089",
+    "amount" : 10621,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "rent",
+    "dueDate" : "2025-08-21T00:00:00Z"
   },
   {
-    "id": "BILL_090",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "internet",
-    "amount": 2650,
-    "status": "paid",
-    "dueDate": "2026-01-20T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_090",
+    "amount" : 2650,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "internet",
+    "dueDate" : "2026-01-20T00:00:00Z"
   },
   {
-    "id": "BILL_091",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "rent",
-    "amount": 13321,
-    "status": "paid",
-    "dueDate": "2025-05-27T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_091",
+    "amount" : 13321,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "rent",
+    "dueDate" : "2025-05-27T00:00:00Z"
   },
   {
-    "id": "BILL_092",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "gas",
-    "amount": 667,
-    "status": "paid",
-    "dueDate": "2026-01-24T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_092",
+    "amount" : 667,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "gas",
+    "dueDate" : "2026-01-24T00:00:00Z"
   },
   {
-    "id": "BILL_093",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "gas",
-    "amount": 839,
-    "status": "paid",
-    "dueDate": "2026-04-10T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_093",
+    "amount" : 839,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "gas",
+    "dueDate" : "2026-04-10T00:00:00Z"
   },
   {
-    "id": "BILL_094",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "gas",
-    "amount": 640,
-    "status": "unpaid",
-    "dueDate": "2025-09-15T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_094",
+    "amount" : 640,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "gas",
+    "dueDate" : "2025-09-15T00:00:00Z"
   },
   {
-    "id": "BILL_095",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "maintenance_fee",
-    "amount": 1253,
-    "status": "unpaid",
-    "dueDate": "2025-06-19T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_095",
+    "amount" : 1253,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-06-19T00:00:00Z"
   },
   {
-    "id": "BILL_096",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "rent",
-    "amount": 12816,
-    "status": "unpaid",
-    "dueDate": "2025-10-21T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_096",
+    "amount" : 12816,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "rent",
+    "dueDate" : "2025-10-21T00:00:00Z"
   },
   {
-    "id": "BILL_097",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "water",
-    "amount": 1225,
-    "status": "unpaid",
-    "dueDate": "2025-08-18T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_097",
+    "amount" : 1225,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "water",
+    "dueDate" : "2025-08-18T00:00:00Z"
   },
   {
-    "id": "BILL_098",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "internet",
-    "amount": 2611,
-    "status": "paid",
-    "dueDate": "2025-09-27T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_098",
+    "amount" : 2611,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "internet",
+    "dueDate" : "2025-09-27T00:00:00Z"
   },
   {
-    "id": "BILL_099",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "internet",
-    "amount": 2156,
-    "status": "unpaid",
-    "dueDate": "2026-01-15T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_099",
+    "amount" : 2156,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "internet",
+    "dueDate" : "2026-01-15T00:00:00Z"
   },
   {
-    "id": "BILL_100",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "electricity",
-    "amount": 1760,
-    "status": "unpaid",
-    "dueDate": "2025-12-16T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_100",
+    "amount" : 1760,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "electricity",
+    "dueDate" : "2025-12-16T00:00:00Z"
   },
   {
-    "id": "BILL_101",
-    "userId": "mYEduksWtqV5avoP5s73dg3gvKo2",
-    "type": "gas",
-    "amount": 1040,
-    "status": "paid",
-    "dueDate": "2025-09-07T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_101",
+    "amount" : 1040,
+    "userId" : "mYEduksWtqV5avoP5s73dg3gvKo2",
+    "type" : "gas",
+    "dueDate" : "2025-09-07T00:00:00Z"
   },
   {
-    "id": "BILL_102",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "rent",
-    "amount": 12895,
-    "status": "unpaid",
-    "dueDate": "2025-06-16T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_102",
+    "amount" : 12895,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "rent",
+    "dueDate" : "2025-06-16T00:00:00Z"
   },
   {
-    "id": "BILL_103",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "rent",
-    "amount": 13145,
-    "status": "unpaid",
-    "dueDate": "2025-07-01T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_103",
+    "amount" : 13145,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "rent",
+    "dueDate" : "2025-07-01T00:00:00Z"
   },
   {
-    "id": "BILL_104",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "electricity",
-    "amount": 2254,
-    "status": "paid",
-    "dueDate": "2025-06-03T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_104",
+    "amount" : 2254,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "electricity",
+    "dueDate" : "2025-06-03T00:00:00Z"
   },
   {
-    "id": "BILL_105",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "water",
-    "amount": 1262,
-    "status": "paid",
-    "dueDate": "2025-08-30T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_105",
+    "amount" : 1262,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "water",
+    "dueDate" : "2025-08-30T00:00:00Z"
   },
   {
-    "id": "BILL_106",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "gas",
-    "amount": 1074,
-    "status": "unpaid",
-    "dueDate": "2025-08-21T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_106",
+    "amount" : 1074,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "gas",
+    "dueDate" : "2025-08-21T00:00:00Z"
   },
   {
-    "id": "BILL_107",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "gas",
-    "amount": 1012,
-    "status": "paid",
-    "dueDate": "2026-02-09T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_107",
+    "amount" : 1012,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "gas",
+    "dueDate" : "2026-02-09T00:00:00Z"
   },
   {
-    "id": "BILL_108",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "internet",
-    "amount": 2214,
-    "status": "unpaid",
-    "dueDate": "2026-03-11T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_108",
+    "amount" : 2214,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "internet",
+    "dueDate" : "2026-03-11T00:00:00Z"
   },
   {
-    "id": "BILL_109",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "maintenance_fee",
-    "amount": 1466,
-    "status": "paid",
-    "dueDate": "2026-03-05T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_109",
+    "amount" : 1466,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "maintenance_fee",
+    "dueDate" : "2026-03-05T00:00:00Z"
   },
   {
-    "id": "BILL_110",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "internet",
-    "amount": 2950,
-    "status": "paid",
-    "dueDate": "2026-01-21T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_110",
+    "amount" : 2950,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "internet",
+    "dueDate" : "2026-01-21T00:00:00Z"
   },
   {
-    "id": "BILL_111",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "gas",
-    "amount": 926,
-    "status": "paid",
-    "dueDate": "2026-03-09T00:00:00Z"
+    "status" : "paid",
+    "id" : "BILL_111",
+    "amount" : 926,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "gas",
+    "dueDate" : "2026-03-09T00:00:00Z"
   },
   {
-    "id": "BILL_112",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "gas",
-    "amount": 1094,
-    "status": "unpaid",
-    "dueDate": "2026-01-19T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_112",
+    "amount" : 1094,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "gas",
+    "dueDate" : "2026-01-19T00:00:00Z"
   },
   {
-    "id": "BILL_113",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "maintenance_fee",
-    "amount": 1689,
-    "status": "unpaid",
-    "dueDate": "2025-11-19T00:00:00Z"
-  },
-  {
-    "id": "BILL_114",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "rent",
-    "amount": 10090,
-    "status": "paid",
-    "dueDate": "2025-09-06T00:00:00Z"
-  },
-  {
-    "id": "BILL_115",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "gas",
-    "amount": 994,
-    "status": "unpaid",
-    "dueDate": "2025-09-03T00:00:00Z"
-  },
-  {
-    "id": "BILL_116",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "maintenance_fee",
-    "amount": 1127,
-    "status": "unpaid",
-    "dueDate": "2025-09-05T00:00:00Z"
-  },
-  {
-    "id": "BILL_117",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "rent",
-    "amount": 10640,
-    "status": "unpaid",
-    "dueDate": "2025-05-31T00:00:00Z"
-  },
-  {
-    "id": "BILL_118",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "water",
-    "amount": 1256,
-    "status": "paid",
-    "dueDate": "2026-01-09T00:00:00Z"
-  },
-  {
-    "id": "BILL_119",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "internet",
-    "amount": 2784,
-    "status": "paid",
-    "dueDate": "2025-06-04T00:00:00Z"
-  },
-  {
-    "id": "BILL_120",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "rent",
-    "amount": 14241,
-    "status": "paid",
-    "dueDate": "2026-01-20T00:00:00Z"
-  },
-  {
-    "id": "BILL_121",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "rent",
-    "amount": 10565,
-    "status": "unpaid",
-    "dueDate": "2025-08-25T00:00:00Z"
-  },
-  {
-    "id": "BILL_122",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "electricity",
-    "amount": 2433,
-    "status": "paid",
-    "dueDate": "2025-10-25T00:00:00Z"
-  },
-  {
-    "id": "BILL_123",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "gas",
-    "amount": 710,
-    "status": "paid",
-    "dueDate": "2026-04-29T00:00:00Z"
-  },
-  {
-    "id": "BILL_124",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "electricity",
-    "amount": 2315,
-    "status": "unpaid",
-    "dueDate": "2025-08-05T00:00:00Z"
-  },
-  {
-    "id": "BILL_125",
-    "userId": "7eJzJOuZODOM0SEhAPaLStsEoSG3",
-    "type": "gas",
-    "amount": 689,
-    "status": "paid",
-    "dueDate": "2025-10-31T00:00:00Z"
+    "status" : "unpaid",
+    "id" : "BILL_113",
+    "amount" : 1689,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-11-19T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_114",
+    "amount" : 10090,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "rent",
+    "dueDate" : "2025-09-06T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_115",
+    "amount" : 994,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "gas",
+    "dueDate" : "2025-09-03T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_116",
+    "amount" : 1127,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "maintenance_fee",
+    "dueDate" : "2025-09-05T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_117",
+    "amount" : 10640,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "rent",
+    "dueDate" : "2025-05-31T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_118",
+    "amount" : 1256,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "water",
+    "dueDate" : "2026-01-09T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_119",
+    "amount" : 2784,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "internet",
+    "dueDate" : "2025-06-04T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_120",
+    "amount" : 14241,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "rent",
+    "dueDate" : "2026-01-20T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_121",
+    "amount" : 10565,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "rent",
+    "dueDate" : "2025-08-25T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_122",
+    "amount" : 2433,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "electricity",
+    "dueDate" : "2025-10-25T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_123",
+    "amount" : 710,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "gas",
+    "dueDate" : "2026-04-29T00:00:00Z"
+  },
+  {
+    "status" : "unpaid",
+    "id" : "BILL_124",
+    "amount" : 2315,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "electricity",
+    "dueDate" : "2025-08-05T00:00:00Z"
+  },
+  {
+    "status" : "paid",
+    "id" : "BILL_125",
+    "amount" : 689,
+    "userId" : "7eJzJOuZODOM0SEhAPaLStsEoSG3",
+    "type" : "gas",
+    "dueDate" : "2025-10-31T00:00:00Z"
   }
 ]

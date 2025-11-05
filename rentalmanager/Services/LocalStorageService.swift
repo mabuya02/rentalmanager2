@@ -31,10 +31,13 @@ final class LocalStorageService {
         }
     }
 
-    // MARK: - Generic JSON Loader
-    private func loadJSON<T: Decodable>(_ type: T.Type, from filename: String) -> T {
-        let url = dataFolderURL.appendingPathComponent("\(filename).json")
+    // =====================================================
+    // MARK: - Generic JSON Loader & Writer (public for view models)
+    // =====================================================
 
+    /// Public JSON loader
+    func loadJSON<T: Decodable>(_ type: T.Type, from filename: String) -> T {
+        let url = dataFolderURL.appendingPathComponent("\(filename).json")
         do {
             let data = try Data(contentsOf: url)
             let decoded = try JSONDecoder().decode(T.self, from: data)
@@ -47,8 +50,8 @@ final class LocalStorageService {
         }
     }
 
-    // MARK: - Generic JSON Writer (optional demo use)
-    private func saveJSON<T: Encodable>(_ data: T, to filename: String) {
+    /// Public JSON writer
+    func saveJSON<T: Encodable>(_ data: T, to filename: String) {
         let url = dataFolderURL.appendingPathComponent("\(filename).json")
         do {
             let encoded = try JSONEncoder().encode(data)
@@ -64,7 +67,7 @@ final class LocalStorageService {
     }
 
     // =====================================================
-    // MARK: - CRUD OPERATIONS
+    // MARK: - CRUD Operations
     // =====================================================
 
     // MARK: - Fetch
@@ -88,7 +91,7 @@ final class LocalStorageService {
         loadJSON([NotificationItem].self, from: "notifications").filter { $0.userId == userId }
     }
 
-    // MARK: - Add / Update / Delete (optional demo write support)
+    // MARK: - Add / Update / Delete (demo write support)
     func add<T: Codable & Identifiable>(_ item: T, to filename: String) where T.ID == String {
         var items = loadJSON([T].self, from: filename)
         items.append(item)

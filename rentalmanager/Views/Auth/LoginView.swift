@@ -28,7 +28,7 @@ struct LoginView: View {
                     .foregroundColor(.blue.opacity(0.9))
                     .padding(.top, 120)
 
-                Text("Welcome Back 👋🏽")
+                Text("Rental Manager")
                     .font(.title2)
                     .fontWeight(.semibold)
 
