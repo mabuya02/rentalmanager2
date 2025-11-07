@@ -111,5 +111,7 @@ DerivedData/
 .DS_Store
 
 # Firebase
-# Uncomment this line if you want to ignore the GoogleService-Info.plist
-# GoogleService-Info.plist
+GoogleService-Info.plist
+
+# Local Data Files
+rentalmanager/Data/
