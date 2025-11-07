@@ -135,9 +135,3 @@ This project is private and proprietary.
 Manasseh Abuya - [@mabuya02](https://github.com/mabuya02)
 
 Project Link: [https://github.com/mabuya02/rentalmanager2](https://github.com/mabuya02/rentalmanager2)
-
-## 🙏 Acknowledgments
-
-- SwiftUI for the modern UI framework
-- Firebase for backend services
-- [Add any other libraries or resources you've used]
