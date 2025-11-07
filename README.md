@@ -132,6 +132,6 @@ This project is private and proprietary.
 
 ## 📧 Contact
 
-Manasseh Abuya - [@mabuya02](https://github.com/mabuya02)
+Manasseh Mabuya - [@mabuya02](https://github.com/mabuya02)
 
 Project Link: [https://github.com/mabuya02/rentalmanager2](https://github.com/mabuya02/rentalmanager2)
